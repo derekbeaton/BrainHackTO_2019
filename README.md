@@ -32,6 +32,8 @@ resources, links, and packages/apps we’ll be working on.
   - The [Generalized Singular Value
     Decomposition](https://github.com/derekbeaton/gsvd) package: a core
     tool for all of our heterogeneous and outlier needs.
+    
+  - The [Generalied Partial Least Squares](https://github.com/derekbeaton/GPLS/tree/master/Package) package: a related tool for regression, canonical, correlation, and a variety of other multivariate blah-blahs
 
   - The [Outliers and Robust Structures a.k.a.
     OuRS](https://github.com/derekbeaton/ours) package: the primary tool
