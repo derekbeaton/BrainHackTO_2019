@@ -49,7 +49,7 @@ resources, links, and packages/apps we’ll be working on.
     determinant](https://www.biorxiv.org/content/10.1101/333005v2.abstract)
     (GMCD)
 
-  - High dimensional outlier detection with split-half resampling[see
+  - High dimensional outlier detection with split-half resampling [see
     here for a
     presentation](https://github.com/derekbeaton/OuRS/tree/master/Presentations/JSM2018)
     and [here for a short
