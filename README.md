@@ -1,47 +1,157 @@
-A central home for all the BrainHackTO/Global 2019 on-goings for the outliers project(s) and resources. Details and updates forthcoming!
+BrainHack Global: 2019 Toronto edition
+================
+
+A central home for all the BrainHackTO/Global 2019 on-goings for the
+outliers project(s) and resources. Details and updates forthcoming\!
 
 # Overview
 
-Data are weird and they come in all sorts of types: continuous, categorical, ordinal, and so many more (for an adorable illustration, see Alison Horst's drawings [here](https://twitter.com/allison_horst/status/1185424265287389184)). A common feature across many of the major big neurodata projects (e.g., ONDRI, ADNI, PPMI, UKBioBank): heterogeneous data. 
+Data are weird and they come in all sorts of types: continuous,
+categorical, ordinal, and so many more (for an adorable illustration,
+see Alison Horst’s drawings
+[here](https://twitter.com/allison_horst/status/1185424265287389184)). A
+common feature across many of the major big neurodata projects (e.g.,
+ONDRI, ADNI, PPMI, UKBioBank): heterogeneous data.
 
-So, this project takes a different perspective on BrainHackTO's 2019 theme of "Indviduality in the Age of Big NeuroData". This project addresses (1) heterogeneous data and (2) finding outliers. 
+So, this project takes a different perspective on BrainHackTO’s 2019
+theme of “Indviduality in the Age of Big NeuroData”. This project
+addresses (1) heterogeneous data and (2) finding outliers.
 
-This project also has many parts for hackers of all types. This includes (1) resources, materials, and data to learn about (a) heterogeneous data and (b) outlires, (2) contributing new items to existing R packages and a ShinyApp (e.g., documentation, visuals, vignettes), and (3) updating, editing, and generally making existing R packages and a ShinyApp better (e.g., speed ups, memory or computation optimizations). 
+This project also has many parts for hackers of all types. This includes
+(1) resources, materials, and data to learn about (a) heterogeneous data
+and (b) outlires, (2) contributing new items to existing R packages and
+a ShinyApp (e.g., documentation, visuals, vignettes), and (3) updating,
+editing, and generally making existing R packages and a ShinyApp better
+(e.g., speed ups, memory or computation optimizations).
 
-Details on the entirety of the project forthcoming. For now here are the resources, links, and packages/apps we'll be working on.
+Details on the entirety of the project forthcoming. For now here are the
+resources, links, and packages/apps we’ll be working on.
 
 ## Packages
 
-* The [Generalized Singular Value Decomposition](https://github.com/derekbeaton/gsvd) package: a core tool for all of our heterogeneous and outlier needs.
+  - The [Generalized Singular Value
+    Decomposition](https://github.com/derekbeaton/gsvd) package: a core
+    tool for all of our heterogeneous and outlier needs.
 
-* The [Outliers and Robust Structures a.k.a. OuRS](https://github.com/derekbeaton/ours) package: the primary tool for outlier and anomaly detection for heterogeneous data.
+  - The [Outliers and Robust Structures a.k.a.
+    OuRS](https://github.com/derekbeaton/ours) package: the primary tool
+    for outlier and anomaly detection for heterogeneous data.
 
-* The Ontario Neurodegenerative Disease Research Initiative's [Outliers ShinyApp](https://github.com/derekbeaton/ONDRIApps/tree/master/Outliers). 
+  - The Ontario Neurodegenerative Disease Research Initiative’s
+    [Outliers
+    ShinyApp](https://github.com/derekbeaton/ONDRIApps/tree/master/Outliers).
 
 ## Papers
 
-* The [generalized minimum covariance determinant](https://www.biorxiv.org/content/10.1101/333005v2.abstract) (GMCD)
+  - The [generalized minimum covariance
+    determinant](https://www.biorxiv.org/content/10.1101/333005v2.abstract)
+    (GMCD)
 
-* High dimensional outlier detection with split-half resampling[see here for a presentation](https://github.com/derekbeaton/OuRS/tree/master/Presentations/JSM2018) and [here for a short publication](https://github.com/derekbeaton/OuRS/tree/master/Publications)
+  - High dimensional outlier detection with split-half resampling[see
+    here for a
+    presentation](https://github.com/derekbeaton/OuRS/tree/master/Presentations/JSM2018)
+    and [here for a short
+    publication](https://github.com/derekbeaton/OuRS/tree/master/Publications)
 
-* [Generalized partial least squares](https://www.biorxiv.org/content/10.1101/598888v2)
+  - [Generalized partial least
+    squares](https://www.biorxiv.org/content/10.1101/598888v2)
 
+# Tools and data we’ll be using
 
-# Tools and data we'll be using
+We’ll need R, RStudio, the devtools package, and the roxygen package to
+help us develop, build, and document. We’ll also have a variety of data
+sets to work with. Some of these data sets will be small toy data sets,
+small but real data sets, and finally some fairly sizable data sets that
+are synthesized (via ‘synthpop’) and imputed (via ‘missMDA’) from the
+ADNI project.
 
-We'll need R, RStudio, the devtools package, and the roxygen package to help us develop, build, and document. We'll also have a variety of data sets to work with. Some of these data sets will be small toy data sets, small but real data sets, and finally some fairly sizable data sets that are synthesized (via 'synthpop') and imputed (via 'missMDA') from the ADNI project.
+# How to make this project work for you\!
 
+This pitch has *many* options, and that’s the point\! We’re getting meta
+with the individuality thing: everyone who wants to take part in this
+are individuals and so you should be able to get out of this what *you*
+want. Here are some of the ways:
 
-# How to make this project work for you!
+  - Learning about data types and methods to handle them
 
-This pitch has *many* options, and that's the point! We're getting meta with the individuality thing: everyone who wants to take part in this are individuals and so you should be able to get out of this what *you* want. Here are some of the ways:
+  - Learning how to build, add to, update, and develop R packages
 
-* Learning about data types and methods to handle them
+  - Learning how to make documention, vignettes, and tutorials
 
-* Learning how to build, add to, update, and develop R packages
+  - Learning about and implementing fancy visuals for high dimensional
+    data and outliers
 
-* Learning how to make documention, vignettes, and tutorials
+  - Anything you want. Do you have an idea or something you want to try
+    out? Pitch it back to this pitch\! We’ll find a way to suit the
+    individuality of big neurodata for the individuality of you\!
 
-* Anything you want. Do you have an idea or something you want to try out? Pitch it back to this pitch! We'll find a way to suit the individuality of big neurodata for the individuality of you!
+# Project structure
 
+This repository acts as a central resource. The README here provides
+outward links to the various subprojects in different respositories. In
+those repositories, issues can be made, or code can be cloned, updated,
+and then a pull request issued.
 
+This repository also has subfolders for any sort of additional or aside
+contributions, and a place for exploring. The directories (for now) are:
+
+  - R – a place for R code (functions, scripts, etc…)
+
+  - Rmd – a place for RMarkdown (blended R and mardown files for more
+    literate programming)
+
+  - misc – a place for almost anything else
+
+  - data – a home for some example data we provide that looks like
+    realistic ADNI data that – but it isn’t\!
+
+## Data
+
+The data folder contains 3 .rda files: `MIXED_SYNTHETIC`,
+`CTX_SYNTHETIC`, and `SNPS_SYNTHETIC`. First we provide a description,
+then an explanation of how these were generated with a reference to
+their source data
+
+  - `MIXED_SYNTHETIC`: A data set that contains a mixture of variable
+    types (continuous, categorical, ordinal, maybe counts, and even some
+    variables we could argue that are mixtures of types *within* the
+    variable). This is primarily summary measures, behavioral/clinical
+    data, and demographics
+
+  - `CTX_SYNTHETHIC`: A data set of cortical uptake of an amyloid tracer
+    in the FreeSurfer regions.
+
+  - `SNPS_SYNTHETIC`: A data set of single nucleotide polymorphisms
+    (SNPS) that are genetic markers, all within or around the following
+    genes: ApoE, TOMM40, MAPT, and APP
+
+These data are a hybrid of *synthetic* (not merely simulated\!) and
+imputed. The first step was to take the real ADNI data corresponding to
+these data sets, and then perform the following steps:
+
+  - Randomly knock out 25% of data from each data set; these were set to
+    `NA` (missing) in `R`.
+
+  - Impute the missing 25% of data with the `missMDA` package (using
+    either the MCA, CA, or PCA approaches where appropriate)
+
+  - Adjust values to exist with the valid ranges (I hope…\!)
+
+  - From the imputed dataset, make a “synthetic” dataset with the
+    `synthpop` package
+
+  - Combine data back together, and create realistic looking but fake
+    ADNI IDs
+
+Once the above steps were performed, I checked all rows of each data set
+against the original data to see if any duplicates existed. There were
+no duplicates, including on most meaningful subsets of variables. Et
+voila\! We have a data set that preserves the structures of the real
+data, but is not real\!
+
+# Hackers on this project
+
+Here we will maintain a list of people involved in this hack project.
+This project is generally geared towards learning something new for
+hackers, or taking the time to find a way to contribute something over
+the course of 2 days at BrainHackTO for the 2019 Global event.
