@@ -20,6 +20,8 @@ Details on the entirety of the project forthcoming. For now here are the resourc
 
 * The [Generalized Singular Value Decomposition](https://github.com/derekbeaton/gsvd) package: a core tool for all of our heterogeneous and outlier needs.
 
+* The [Generalied Partial Least Squares](https://github.com/derekbeaton/GPLS/tree/master/Package) package: a related tool for regression, canonical, correlation, and a variety of other multivariate blah-blahs
+
 * The [Outliers and Robust Structures a.k.a. OuRS](https://github.com/derekbeaton/ours) package: the primary tool for outlier and anomaly detection for heterogeneous data.
 
 * The Ontario Neurodegenerative Disease Research Initiative's [Outliers ShinyApp](https://github.com/derekbeaton/ONDRIApps/tree/master/Outliers). 
@@ -28,10 +30,16 @@ Details on the entirety of the project forthcoming. For now here are the resourc
 
 * The [generalized minimum covariance determinant](https://www.biorxiv.org/content/10.1101/333005v2.abstract) (GMCD)
 
-* High dimensional outlier detection with split-half resampling[see here for a presentation](https://github.com/derekbeaton/OuRS/tree/master/Presentations/JSM2018) and [here for a short publication](https://github.com/derekbeaton/OuRS/tree/master/Publications)
+* High dimensional outlier detection with split-half resampling [see here for a presentation](https://github.com/derekbeaton/OuRS/tree/master/Presentations/JSM2018) and [here for a short publication](https://github.com/derekbeaton/OuRS/tree/master/Publications)
 
 * [Generalized partial least squares](https://www.biorxiv.org/content/10.1101/598888v2)
 
+
+## Other short resources
+
+* [Matrix algebra](https://personal.utdallas.edu/~herve/HerveAbdi_OUP_EDAP_NewChapters_February2011.pdf) chapter
+
+* [Singular value decomposition and generalized singular value decomposition](https://personal.utdallas.edu/~herve/Abdi-SVD2007-pretty.pdf)
 
 # Tools and data we'll be using
 
@@ -99,3 +107,4 @@ Once the above steps were performed, I checked all rows of each data set against
 # Hackers on this project
 
 Here we will maintain a list of people involved in this hack project. This project is generally geared towards learning something new for hackers, or taking the time to find a way to contribute something over the course of 2 days at BrainHackTO for the 2019 Global event.
+
